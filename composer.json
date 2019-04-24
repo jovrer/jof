@@ -1,0 +1,17 @@
+{
+	"name": "jof/jof",
+    "description": "jo' framework",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "repositories":{
+        "type":"vcs",
+        "url":"https://github.com/jovrer/jof"
+    },
+    "autoload": {
+        "psr-4": {
+            "SafeJo\\": "jof/src/SafeJo"
+        }
+    },
+    "minimum-stability": "dev"
+}
